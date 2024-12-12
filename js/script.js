@@ -10,7 +10,7 @@ $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
-var countDownDate = new Date("Nov 8, 2024 11:00:00").getTime();
+var countDownDate = new Date("Jan 26, 2025 20:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
